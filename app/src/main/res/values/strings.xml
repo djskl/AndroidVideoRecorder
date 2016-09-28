@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">视频录制</string>
+    <string name="title_activity_sets">视频设置</string>
+
+    <string name="status_nocapture">nothing captured yet</string>
+    <string name="status_capturesuccess">Capture successful: %s</string>
+    <string name="status_capturecancelled">Capture cancelled by user</string>
+    <string name="status_capturefailed">Capture failed</string>
+    <string name="title_activity_player">PlayerActivity</string>
+
+    <string name="pref_title_resolution">分辨率</string>
+    <string-array name="pref_resolution_list_titles">
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+    <string-array name="pref_resolution_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_title_quality">质量</string>
+    <string-array name="pref_quality_list_titles">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="pref_quality_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--持续时间-->
+    <string name="pref_title_duration">录制时长(秒)</string>
+    <string name="pref_default_duration_value">不限制</string>
+
+    <!--文件大小-->
+    <string name="pref_title_filesize">视频大小(MB)</string>
+    <string name="pref_default_filesize_value">不限制</string>
+
+    <!--是否显示计时器-->
+    <string name="pref_title_showtimer">是否显示计时器</string>
+
+    <string name="video_remove">删除</string>
+
+</resources>

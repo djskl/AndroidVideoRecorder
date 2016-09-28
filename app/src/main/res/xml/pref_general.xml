@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--分辨率-->
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_resolution_list_titles"
+        android:entryValues="@array/pref_resolution_list_values"
+        android:key="resolution_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_resolution" />
+
+    <!--质量-->
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_quality_list_titles"
+        android:entryValues="@array/pref_quality_list_values"
+        android:key="quality_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_quality" />
+
+    <!--持续时间-->
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_duration_value"
+        android:inputType="number"
+        android:key="duration_value"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_duration" />
+
+    <!--文件大小-->
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_filesize_value"
+        android:inputType="number"
+        android:key="filesize_value"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_filesize" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="showtimer_switch"
+        android:title="@string/pref_title_showtimer" />
+
+</PreferenceScreen>
